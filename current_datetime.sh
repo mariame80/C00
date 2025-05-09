@@ -1,3 +1,4 @@
 #!/bin/bash
-#!/bin/bash
-echo "current date and time: $(date +"%Y-%m-%d %H:%M:%S")"
+
+# ça permet d'afficher "Hello, World!"
+date +"%Y-%m-%d %H:%M:%S"
