@@ -1,2 +1,2 @@
-# ça permet de crée un répertoire
+#!/bin/bash
 mkdir -p test_directory
