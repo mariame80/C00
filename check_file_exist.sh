@@ -2,9 +2,9 @@
 # Demander à l'utilisateur d'entrer le nom du fichier
 echo "Entrez le nom du fichier :"
 read filename
-# Vérification de l'existence du fichier
+# vérification de l'existence du fichier
 if [ -f "$filename" ]; then
-  echo "Le fichier '$filename' existe."
+  echo "le fichier '$filename' existe."
 else
-  echo "Le fichier '$filename' n'existe pas."
+  echo "le fichier '$filename' n'existe pas."
 fi
